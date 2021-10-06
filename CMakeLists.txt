@@ -13,7 +13,7 @@ set(CXX_FLAGS
 	-g
 	-Wall
 	-std=c++14
-	-lpthread
+	-pthread
 )
 
 add_custom_target(
