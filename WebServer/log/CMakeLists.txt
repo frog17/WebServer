@@ -5,3 +5,4 @@ set(LOG_SRCS
 )
 
 add_library(xlog ${LOG_SRCS})
+target_link_libraries(xlog pthread)
